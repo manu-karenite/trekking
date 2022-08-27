@@ -1,0 +1,12 @@
+.outer {
+  background-color: rgb(214, 229, 255);
+  border: 1px solid rgb(214, 229, 255);
+  margin: 20px 20px 0px;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,40 @@
+.outer {
+  z-index: 6;
+  align-self: center;
+  min-width: 300px;
+  max-width: 360px;
+  order: 2;
+  min-height: 185px;
+  height: 185px;
+  flex-grow: 1;
+  width: auto;
+  margin: 20px;
+  justify-content: space-around;
+  overflow: visible;
+  border-radius: 0px;
+  box-shadow: rgb(170 170 170) 2px 2px 4px 0px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.text {
+  font-size: 25px;
+  font-weight: 900;
+  font-family: "Mulish";
+  width: 50%;
+}
+.btn {
+  padding: 5px 20px;
+  background-color: white;
+  border-radius: 20px;
+  border: solid 0.5px grey;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Mulish";
+}

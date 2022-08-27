@@ -1,0 +1,8 @@
+.outer {
+  margin: 20px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

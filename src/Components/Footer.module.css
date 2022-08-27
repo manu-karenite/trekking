@@ -1,0 +1,49 @@
+.outer {
+  background-color: rgb(9, 23, 71);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 40px;
+  flex-wrap: wrap;
+}
+.text1 {
+  color: #fff;
+  font-size: 25px;
+  width: 400px;
+  margin: 0px 20px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+.text2_2 {
+  color: #fff;
+  font-size: 25px;
+  width: 400px;
+  margin: 0px 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.text2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+.knowMore {
+  margin-top: 10px;
+  background-color: #d7df23;
+  border: solid 1px #d7d523;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: "Mulish";
+  font-size: 18px;
+  font-weight: 700;
+}
+.knowMore:hover {
+  background-color: #fff;
+  border: solid 1px blue;
+  color: blue;
+  cursor: pointer;
+}
